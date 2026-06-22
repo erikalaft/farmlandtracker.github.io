@@ -18,18 +18,9 @@ header {
   margin: auto;
 } */
 
-.page {
-  display: none;
-  animation: fadeIn 0.3s ease;
-}
-
-.page.active {
-  display: block;
-}
-
 h1 {
-  color: #00ff99;
-  text-shadow: 0 0 6px #00ff99;
+  color: #49824B;
+  text-shadow: 0 0 6px #49824B;
 }
 
 #counter {
@@ -37,12 +28,12 @@ h1 {
   text-shadow: 0 0 10px #00ff99;
 }
 
-canvas {
+/* canvas {
   margin-top: 20px;
   background: #111;
   border-radius: 12px;
   box-shadow: 0 0 20px #00ff99;
-}
+} */
 
 .stat-box {
   margin: 20px 0;
@@ -51,6 +42,3 @@ canvas {
   border-radius: 10px;
   box-shadow: 0 0 10px #00ff99;
 }
-
-.fun-facts ul {
-  lis

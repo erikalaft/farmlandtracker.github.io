@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-div {
+div.center {
     display: flex;
     align-items: center;
     justify-content: center;

@@ -12,30 +12,11 @@ header {
   text-align: center;
 }
 
-nav button,
-nav a.repo {
-  background: #1f1f1f;
-  border: 1px solid #00ff99;
-  color: #00ff99;
-  padding: 10px 16px;
-  margin: 4px;
-  border-radius: 8px;
-  cursor: pointer;
-  font-size: 14px;
-  text-decoration: none;
-}
-
-nav button:hover,
-nav a.repo:hover {
-  background-color: #00ff99;
-  color: #000;
-}
-
-main {
+/* main {
   padding: 20px;
   max-width: 900px;
   margin: auto;
-}
+} */
 
 .page {
   display: none;

@@ -28,11 +28,3 @@ h1 {
   border-radius: 12px;
   box-shadow: 0 0 20px #00ff99;
 } */
-
-.stat-box {
-  margin: 20px 0;
-  background-color: #111;
-  padding: 15px;
-  border-radius: 10px;
-  box-shadow: 0 0 10px #00ff99;
-}

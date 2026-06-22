@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.stats_container {
+    display:grid;
+    grid-template-columns: 1fr;
+    margin: 30px auto;
+    max-width: 1000px;
+    padding-inline: 16px;
+
+}
+
+.stat {
+    background-color: red;
+    padding: 24px;
+    text-align: center;
+    color: black;
+
+}
+
+.stats_container .stat .loss_counter {
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.stats_container .stat .loss_counter::after {
+        content: " Acres";
+        margin-left: 4px;
+}

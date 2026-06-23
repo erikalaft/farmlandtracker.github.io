@@ -9,6 +9,7 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
+  border-style: solid;
   height: 100vh;
   border-color: green;
 

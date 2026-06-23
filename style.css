@@ -1,5 +1,5 @@
 body {
-  background-color: #49824B;
+  background-color: transparent;
   color: #F9FAF5;
   font-family: 'Montserrat', sans-serif;
 }
@@ -10,6 +10,8 @@ body {
   align-items: center;
   text-align: center;
   height: 100vh;
+  border-color: green;
+
 } 
 
 /* header {

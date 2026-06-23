@@ -2,9 +2,6 @@ body {
   background-color: transparent;
   color: #49824B;
   font-family: 'Montserrat', sans-serif;
-  padding:2%;
-  margin:3%;
-  width:90%;
   height: 100vh;
 
 }
@@ -17,9 +14,6 @@ body {
   border-style: solid;
   height: 100vh;
   border-color: green;
-  padding:2%;
-  margin:3%;
-  width:90%;
 
 } 
 

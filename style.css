@@ -37,6 +37,15 @@ h1 {
 ;
 }
 
+.subtitle {
+  font-size: 3vh;
+  margin-bottom: 10vh;
+}
+
+.source {
+  font-size: 2vh;
+  font-style: italic;
+
 /* canvas {
   margin-top: 20px;
   background: #111;

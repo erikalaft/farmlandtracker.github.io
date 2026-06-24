@@ -44,12 +44,12 @@ h1 {
 }
 
 .subtitle {
-  font-size: 3vh;
+  font-size: 5vh;
   margin-bottom: 10vh;
 }
 
 .source {
-  font-size: 2vh;
+  font-size: 4vh;
   font-style: italic;
 
 /* canvas {

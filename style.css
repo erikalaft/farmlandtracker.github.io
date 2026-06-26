@@ -5,7 +5,7 @@
 }
 
 body {
-  background-color: transparent;
+  background-color: #EEEFE1;
   color: #49824B;
   font-family: 'Montserrat', sans-serif;
   min-height: 100vh;
@@ -23,7 +23,7 @@ body {
   align-items: center;
   text-align: center;
   border-style: solid;
-  border-color: green;
+  /*border-color: green;*/
 
 } 
 

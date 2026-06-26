@@ -14,7 +14,8 @@ const conversionRate = 1.386668397;
 // definining function to update 2016 value based on time elapsed
 function updateconversion() {
   const now = Date.now();
-  const elapsedMinutes = Math.max(0, (now - baseTime) / 60000);
+  const elapsedMinutes = (now - baseTime) / 60000;
+  /*const elapsedMinutes = Math.max(0, (now - baseTime) / 60000);*/
   const estimatedConversion = Math.floor(basefarmlandconversion + (conversionRate * elapsedMinutes));
   
   document.getElementById("counter").textContent = estimatedConversion.toLocaleString();

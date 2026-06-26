@@ -39,7 +39,7 @@ h1 {
 
 #counter {
   font-size: 2.5rem;
-  text-shadow: 0 0 10px #C7CB9B;
+ /* text-shadow: 0 0 10px #C7CB9B;*/
   margin-bottom: 5vh;
   font-weight: bold;
 

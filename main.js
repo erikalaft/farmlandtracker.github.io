@@ -16,7 +16,7 @@ function updateconversion() {
   const now = Date.now();
   const elapsedMinutes = (now - baseTime) / 60000;
   // const estimatedConversion = Math.floor(basefarmlandconversion + (conversionRate * elapsedMinutes));
-  const estimatedConversion = (basefarmlandconversion + (conversionRate * elapsedMinutes)).toFixed(2);
+  const estimatedConversion = Number(basefarmlandconversion + (conversionRate * elapsedMinutes)).toFixed(2);
 
   document.getElementById("counter").textContent = estimatedConversion.toLocaleString();
 

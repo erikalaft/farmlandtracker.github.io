@@ -15,9 +15,9 @@ const conversionRate = 1.386668397;
 function updateconversion() {
   const now = Date.now();
   const elapsedMinutes = (now - baseTime) / 60000;
-  /*const elapsedMinutes = Math.max(0, (now - baseTime) / 60000);*/
-  const estimatedConversion = Math.floor(basefarmlandconversion + (conversionRate * elapsedMinutes));
-  
+  // const estimatedConversion = Math.floor(basefarmlandconversion + (conversionRate * elapsedMinutes));
+  const estimatedConversion = (basefarmlandconversion + (conversionRate * elapsedMinutes).toFixed(1);
+
   document.getElementById("counter").textContent = estimatedConversion.toLocaleString();
 
 }
